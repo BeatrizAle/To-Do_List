@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+}
+
+.content {
+    margin-top: 40px;
+    margin-left: 425px;
+    max-width: 400px;
+    max-height: 600px;
+    background-color: #FFEFD5;
+    height: 450px;
+    padding: 2%;
+    border: 1px solid pink;
+    border-radius: 20px;
+}
+
+.content h1 {
+    text-align: center;
+    font-family: 'Redressed', cursive;
+}
+
+input[type="text"] {
+    width: 80%;
+    height: 30px;
+    margin-bottom: 10px;
+    border: 2px solid pink;
+    border-radius: 50px;
+}
+
+input[type="button"] {
+    border: none;
+    width: 17%;
+    float: right;
+    height: 35px;
+    background-color: white;
+    border: 2px solid pink;
+    border-radius: 50px;
+}
+
+button:hover,
+input[type="button"]:hover {
+    background-color: white;
+}
+
+button,
+input[type="button"] {
+    cursor: pointer;
+}
+
+button {
+    float: right;
+    width: 25px;
+    padding: 5px;
+    background-color: pink;
+    border-radius: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 10px;
+    height: 250px;
+    background-color: white;
+    overflow-y: auto;
+    border-radius: 25px;
+    border: 2px solid pink;
+}
+
+li {
+    height: 25px;
+    margin: 10px 0 10px 0;
+    border-bottom: 1px solid pink;
+}
